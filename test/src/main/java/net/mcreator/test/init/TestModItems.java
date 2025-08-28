@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.test.item.WickerWhipItem;
 import net.mcreator.test.item.WickerArmorItem;
 import net.mcreator.test.item.VineStickItem;
+import net.mcreator.test.item.TESTItem;
 import net.mcreator.test.item.SodiumSwordItem;
 import net.mcreator.test.item.SodiumIngotItem;
 import net.mcreator.test.item.SodiumChlorideItem;
