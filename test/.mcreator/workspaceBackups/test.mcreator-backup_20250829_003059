@@ -339,11 +339,11 @@
       "registry_name": "sodium_golem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/test/items/sodium_golem_spawn_egg.json",
-          "src/main/java/net/mcreator/test/client/renderer/SodiumGolemRenderer.java",
-          "src/main/resources/data/test/neoforge/biome_modifier/sodium_golem_biome_modifier.json",
+          "src/main/resources/assets/test/models/item/sodium_golem_spawn_egg.json",
           "src/main/java/net/mcreator/test/entity/SodiumGolemEntity.java",
-          "src/main/resources/assets/test/models/item/sodium_golem_spawn_egg.json"
+          "src/main/resources/assets/test/items/sodium_golem_spawn_egg.json",
+          "src/main/resources/data/test/neoforge/biome_modifier/sodium_golem_biome_modifier.json",
+          "src/main/java/net/mcreator/test/client/renderer/SodiumGolemRenderer.java"
         ]
       }
     },
@@ -596,10 +596,6 @@
             "type": "entity"
           },
           {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -699,6 +695,20 @@
           "src/main/java/net/mcreator/test/procedures/SodiumGolemDEATHexpoleProcedure.java"
         ]
       }
+    },
+    {
+      "name": "TEST",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/TESTItem.java",
+          "src/main/resources/assets/test/models/item/test.json",
+          "src/main/resources/assets/test/items/test.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -767,7 +777,8 @@
       "item.test.salt_water_bucket": "鹽水桶",
       "fluid_type.test.salt_water": "鹽水桶",
       "item.test.wicker_whip": "Wicker Whip",
-      "item.test.vine_stick": "Vine Stick"
+      "item.test.vine_stick": "Vine Stick",
+      "item.test.test": "TEST"
     },
     "zh_tw": {
       "item.test.diamond_stick": "鑽石棒",
@@ -792,18 +803,19 @@
       "item.test.salt_water_bucket": "海水桶",
       "fluid_type.test.salt_water": "鹽水桶",
       "item.test.wicker_whip": "藤鞭",
-      "item.test.vine_stick": "藤條"
+      "item.test.vine_stick": "藤條",
+      "item.test.test": "TEST"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/test/TestMod.java",
-      "src/main/java/net/mcreator/test/init/TestModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/test/TestMod.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/test/init/TestModTabs.java",
-      "src/main/java/net/mcreator/test/init/TestModFluids.java",
+      "src/main/java/net/mcreator/test/init/TestModModels.java",
       "src/main/java/net/mcreator/test/init/TestModFluidTypes.java",
+      "src/main/java/net/mcreator/test/init/TestModFluids.java",
       "src/main/java/net/mcreator/test/init/TestModBlocks.java",
       "src/main/java/net/mcreator/test/init/TestModItems.java",
       "src/main/java/net/mcreator/test/init/TestModEntities.java",

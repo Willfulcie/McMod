@@ -21,5 +21,6 @@
   "item.test.salt_water_bucket": "海水桶",
   "fluid_type.test.salt_water": "鹽水桶",
   "item.test.wicker_whip": "藤鞭",
-  "item.test.vine_stick": "藤條"
+  "item.test.vine_stick": "藤條",
+  "item.test.test": "TEST"
 }
