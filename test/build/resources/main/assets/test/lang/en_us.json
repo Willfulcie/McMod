@@ -13,13 +13,13 @@
   "item.test.sodium_golem_spawn_egg": "Sodium Golem Spawn Egg",
   "entity.test.sodium_golem": "Sodium Golem",
   "item.test.sodium_block": "鈉磚",
-  "item.test.sodium_chloride": "Sodium Chloride",
+  "item.test.sodium_chloride": "食鹽",
   "item.test.chips": "加鹽薯條",
-  "item.test.salt": "鹽",
   "block.test.salt_water": "鹽水桶",
   "fluid.test.salt_water": "鹽水桶",
   "item.test.salt_water_bucket": "鹽水桶",
   "fluid_type.test.salt_water": "鹽水桶",
   "item.test.wicker_whip": "Wicker Whip",
-  "item.test.vine_stick": "Vine Stick"
+  "item.test.vine_stick": "藤條",
+  "item.test.test": "TEST"
 }

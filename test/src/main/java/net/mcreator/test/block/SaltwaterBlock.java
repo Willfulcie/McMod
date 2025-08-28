@@ -16,6 +16,6 @@ public class SaltwaterBlock extends LiquidBlock {
 
 	@Override
 	public int getLightBlock(BlockState state) {
-		return 3;
+		return 2;
 	}
 }

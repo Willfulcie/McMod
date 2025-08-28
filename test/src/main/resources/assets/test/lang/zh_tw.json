@@ -15,11 +15,11 @@
   "item.test.sodium_block": "鈉磚",
   "item.test.sodium_chloride": "粗鹽",
   "item.test.chips": "薯條",
-  "item.test.salt": "鹽",
   "block.test.salt_water": "鹽水桶",
   "fluid.test.salt_water": "鹽水桶",
   "item.test.salt_water_bucket": "海水桶",
   "fluid_type.test.salt_water": "鹽水桶",
   "item.test.wicker_whip": "藤鞭",
-  "item.test.vine_stick": "藤條"
+  "item.test.vine_stick": "藤條",
+  "item.test.test": "TEST"
 }

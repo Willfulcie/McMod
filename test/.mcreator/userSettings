@@ -2,11 +2,13 @@
   "workspacePanelIconSize": "DETAILS",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 192,
+  "projectBrowserSplitPos": 193,
   "projectBrowserState": {
     "expandedPaths": [
       "[, test]",
-      "[, test, Models]"
+      "[, test, Models]",
+      "[, test, Models, D:\\McMod\\test\\models\\animations]",
+      "[, test, Models, D:\\McMod\\test\\models\\mojmap-1.21.x]"
     ]
   }
 }

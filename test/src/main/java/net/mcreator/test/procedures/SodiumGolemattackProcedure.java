@@ -7,6 +7,6 @@ public class SodiumGolemattackProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		return entity instanceof LivingEntity _livEnt0 && _livEnt0.swinging;
+		return (entity instanceof LivingEntity _livEnt0 && _livEnt0.swinging) == true;
 	}
 }

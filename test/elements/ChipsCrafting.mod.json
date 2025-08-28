@@ -13,7 +13,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Salt"
+        "value": "CUSTOM:SodiumChloride"
       },
       {
         "value": "Items.BAKED_POTATO"

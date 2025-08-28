@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:blaze_rod",
+    "texture": "rattan",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Vine Stick",
+    "name": "藤條",
     "rarity": "COMMON",
     "creativeTabs": [
       {

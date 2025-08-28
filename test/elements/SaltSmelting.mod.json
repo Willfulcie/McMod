@@ -19,7 +19,7 @@
       "value": "CUSTOM:Saltwater.bucket"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:Salt"
+      "value": "CUSTOM:SodiumChloride"
     },
     "name": "salt_smelting",
     "namespace": "mod"

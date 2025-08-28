@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "test:salt",
+    "test:sodium_chloride",
     "minecraft:baked_potato"
   ],
   "result": {

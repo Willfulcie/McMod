@@ -8,9 +8,13 @@
     "guiTexture": "",
     "customProperties": {},
     "states": [],
-    "name": "Sodium Chloride",
+    "name": "食鹽",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Modtab"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,
@@ -41,8 +45,8 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 1,
+    "saturation": 0.1,
     "eatResultItem": {
       "value": ""
     },

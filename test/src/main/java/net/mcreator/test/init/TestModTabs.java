@@ -28,9 +28,9 @@ public class TestModTabs {
 				tabData.accept(TestModItems.SODIUM_GOLEM_SPAWN_EGG.get());
 				tabData.accept(TestModBlocks.SODIUM_BLOCK.get().asItem());
 				tabData.accept(TestModItems.CHIPS.get());
-				tabData.accept(TestModItems.SALT.get());
 				tabData.accept(TestModItems.SALT_WATER_BUCKET.get());
 				tabData.accept(TestModItems.WICKER_WHIP.get());
 				tabData.accept(TestModItems.VINE_STICK.get());
+				tabData.accept(TestModItems.SODIUM_CHLORIDE.get());
 			}).build());
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "test:item/a_purple_pile_of_ore_6eoo5qdb_cql-fthz4noj"
+  }
+}

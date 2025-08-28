@@ -8,7 +8,7 @@
   ],
   "key": {
     "a": "minecraft:bamboo",
-    "b": "minecraft:string"
+    "b": "test:vine_stick"
   },
   "result": {
     "id": "test:wicker_armor_boots",
