@@ -1,0 +1,12 @@
+{
+  "workspacePanelIconSize": "DETAILS",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 192,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, test]",
+      "[, test, Models]"
+    ]
+  }
+}

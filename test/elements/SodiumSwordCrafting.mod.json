@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DiamondStick"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodiumSword"
+    },
+    "name": "sodium_sword_crafting",
+    "namespace": "mod"
+  }
+}

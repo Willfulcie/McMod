@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "test:wicker_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "test:wicker_armor"
+      }
+    ]
+  }
+}

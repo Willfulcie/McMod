@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "test:sodium_chloride",
+    "test:sodium_chloride",
+    "test:salt_water_bucket"
+  ],
+  "result": {
+    "id": "test:salt_water_bucket",
+    "count": 1
+  }
+}

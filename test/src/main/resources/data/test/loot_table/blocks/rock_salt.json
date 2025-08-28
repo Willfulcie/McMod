@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "test:blocks/rock_salt",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "test:sodium_chloride",
+          "functions": [
+            {
+              "count": 2,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "test:rock_salt"
+    },
+    "title": {
+      "translate": "advancements.modadv.title"
+    },
+    "description": {
+      "translate": "advancements.modadv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "modadv_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:rock_salt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "test:sodium_ingot_from_smelting"
+    ]
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

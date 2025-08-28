@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      },
+      {
+        "value": "CUSTOM:SodiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SodiumBlock"
+    },
+    "name": "sodium_block_from_ingot",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:bamboo",
+    "b": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "test:wicker_armor_chestplate",
+    "count": 1
+  }
+}

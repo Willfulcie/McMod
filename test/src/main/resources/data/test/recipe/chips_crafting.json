@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "test:salt",
+    "minecraft:baked_potato"
+  ],
+  "result": {
+    "id": "test:chips",
+    "count": 1
+  }
+}

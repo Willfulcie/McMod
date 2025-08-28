@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "iron_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Magnesium sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Modtab"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 10,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "SodiumSwordExplode"
+    },
+    "onItemInUseTick": {
+      "name": "SodiumSwordWaterExplode"
+    }
+  }
+}

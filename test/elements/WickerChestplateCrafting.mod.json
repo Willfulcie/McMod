@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      },
+      {
+        "value": "Blocks.BAMBOO"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WickerArmor.body"
+    },
+    "name": "wicker_chestplate_crafting",
+    "namespace": "mod"
+  }
+}

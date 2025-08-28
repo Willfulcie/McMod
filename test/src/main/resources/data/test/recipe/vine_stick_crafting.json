@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bamboo",
+    "minecraft:bamboo",
+    "minecraft:bamboo",
+    "minecraft:string",
+    "minecraft:bamboo",
+    "minecraft:bamboo",
+    "minecraft:string",
+    "minecraft:string",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "test:vine_stick",
+    "count": 1
+  }
+}

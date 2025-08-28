@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": "minecraft:bamboo",
+    "b": "minecraft:string"
+  },
+  "result": {
+    "id": "test:wicker_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "test:sodium_block"
+  ],
+  "result": {
+    "id": "test:sodium_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " a ",
+    "b  "
+  ],
+  "key": {
+    "a": "test:sodium_ingot",
+    "b": "test:diamond_stick"
+  },
+  "result": {
+    "id": "test:sodium_sword",
+    "count": 1
+  }
+}
