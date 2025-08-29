@@ -44,7 +44,6 @@ public class TestModItems {
 	public static final DeferredItem<Item> SALT_WATER_BUCKET = register("salt_water_bucket", SaltwaterItem::new);
 	public static final DeferredItem<Item> WICKER_WHIP = register("wicker_whip", WickerWhipItem::new);
 	public static final DeferredItem<Item> VINE_STICK = register("vine_stick", VineStickItem::new);
-	public static final DeferredItem<Item> TEST = register("test", TESTItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
