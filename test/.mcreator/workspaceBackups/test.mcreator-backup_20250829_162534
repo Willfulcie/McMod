@@ -1,0 +1,844 @@
+{
+  "mod_elements": [
+    {
+      "name": "DiamondStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/diamond_stick.json",
+          "src/main/java/net/mcreator/test/item/DiamondStickItem.java",
+          "src/main/resources/assets/test/items/diamond_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondstickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondstick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/diamondstick_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Modtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modtab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tab_Adv"
+    },
+    {
+      "name": "Mod",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modadv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/modadv.json"
+        ]
+      },
+      "path": "~/Tab_Adv"
+    },
+    {
+      "name": "RockSalt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock_salt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/blockstates/rock_salt.json",
+          "src/main/resources/assets/test/models/block/rock_salt.json",
+          "src/main/resources/assets/test/models/item/rock_salt.json",
+          "src/main/resources/assets/test/items/rock_salt.json",
+          "src/main/resources/data/test/loot_table/blocks/rock_salt.json",
+          "src/main/resources/data/test/worldgen/configured_feature/rock_salt.json",
+          "src/main/resources/data/test/worldgen/placed_feature/rock_salt.json",
+          "src/main/java/net/mcreator/test/block/RockSaltBlock.java",
+          "src/main/resources/data/test/neoforge/biome_modifier/rock_salt_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SodiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/SodiumIngotItem.java",
+          "src/main/resources/assets/test/models/item/sodium_ingot.json",
+          "src/main/resources/assets/test/items/sodium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "SodiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/models/item/sodium_sword.json",
+          "src/main/resources/assets/test/items/sodium_sword.json",
+          "src/main/java/net/mcreator/test/item/SodiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SodiumIngotFromSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_ingot_from_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/sodium_ingot_from_smelting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumSwordCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_sword_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/sodium_sword_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumWaterExplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_water_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumWaterExplodeProcedure.java"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SodiumSwordExplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_sword_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumSwordExplodeProcedure.java"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "WickerArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/WickerArmorItem.java",
+          "src/main/resources/assets/test/items/wicker_armor_chestplate.json",
+          "src/main/resources/assets/test/models/item/wicker_armor_boots.json",
+          "src/main/resources/assets/test/equipment/wicker_armor.json",
+          "src/main/java/net/mcreator/test/client/renderer/item/WickerArmorArmor.java",
+          "src/main/resources/assets/test/items/wicker_armor_leggings.json",
+          "src/main/resources/assets/test/items/wicker_armor_helmet.json",
+          "src/main/resources/assets/test/models/item/wicker_armor_leggings.json",
+          "src/main/resources/assets/test/items/wicker_armor_boots.json",
+          "src/main/resources/assets/test/models/item/wicker_armor_helmet.json",
+          "src/main/resources/assets/test/models/item/wicker_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "WickerHelmetCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_helmet_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/wicker_helmet_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumSwordWaterExplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_sword_water_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumSwordWaterExplodeProcedure.java"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SodiumItemExplode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_item_explode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumItemExplodeProcedure.java"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "WickerChestplateCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_chestplate_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/wicker_chestplate_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "WickerLeggingsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_leggings_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/wicker_leggings_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "WickerBootsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_boots_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/wicker_boots_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/sodium_golem_spawn_egg.json",
+          "src/main/java/net/mcreator/test/client/renderer/SodiumGolemRenderer.java",
+          "src/main/resources/data/test/neoforge/biome_modifier/sodium_golem_biome_modifier.json",
+          "src/main/java/net/mcreator/test/entity/SodiumGolemEntity.java",
+          "src/main/resources/assets/test/models/item/sodium_golem_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SodiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/sodium_block.json",
+          "src/main/java/net/mcreator/test/block/SodiumBlockBlock.java",
+          "src/main/resources/data/test/loot_table/blocks/sodium_block.json",
+          "src/main/resources/assets/test/models/item/sodium_block.json",
+          "src/main/resources/assets/test/models/block/sodium_block.json",
+          "src/main/resources/assets/test/blockstates/sodium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SodiumChloride",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_chloride",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/SodiumChlorideItem.java",
+          "src/main/resources/assets/test/items/sodium_chloride.json",
+          "src/main/resources/assets/test/models/item/sodium_chloride.json"
+        ]
+      }
+    },
+    {
+      "name": "Chips",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chips",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/chips.json",
+          "src/main/java/net/mcreator/test/item/ChipsItem.java",
+          "src/main/resources/assets/test/models/item/chips.json"
+        ]
+      }
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/SaltItem.java",
+          "src/main/resources/assets/test/items/salt.json",
+          "src/main/resources/assets/test/models/item/salt.json"
+        ]
+      }
+    },
+    {
+      "name": "Saltwater",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/salt_water_bucket.json",
+          "src/main/resources/assets/test/models/block/salt_water.json",
+          "src/main/java/net/mcreator/test/fluid/types/SaltwaterFluidType.java",
+          "src/main/resources/assets/test/models/item/salt_water_bucket.json",
+          "src/main/java/net/mcreator/test/client/fluid/SaltwaterFluidExtension.java",
+          "src/main/resources/assets/test/blockstates/salt_water.json",
+          "src/main/java/net/mcreator/test/block/SaltwaterBlock.java",
+          "src/main/java/net/mcreator/test/item/SaltwaterItem.java",
+          "src/main/java/net/mcreator/test/fluid/SaltwaterFluid.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawnsodiumgolem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnsodiumgolem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SpawnsodiumgolemProcedure.java"
+        ]
+      },
+      "path": "~/function"
+    },
+    {
+      "name": "SodiumChlorideFromSaltWater",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_chloride_from_salt_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/sodium_chloride_from_salt_water.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "WickerWhip",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wicker_whip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/wicker_whip.json",
+          "src/main/java/net/mcreator/test/item/WickerWhipItem.java",
+          "src/main/resources/assets/test/models/item/wicker_whip.json"
+        ]
+      }
+    },
+    {
+      "name": "VineStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/test/items/vine_stick.json",
+          "src/main/resources/assets/test/models/item/vine_stick.json",
+          "src/main/java/net/mcreator/test/item/VineStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SaltSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/advancement/recipes/salt_smelting.json",
+          "src/main/resources/data/test/recipe/salt_smelting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ChipsCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chips_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/chips_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumBlockFromIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_block_from_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/sodium_block_from_ingot.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumIngotFromSodiumBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_ingot_from_sodium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/sodium_ingot_from_sodium_block.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "VineStickCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vine_stick_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/recipe/vine_stick_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SodiumGolemattack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golemattack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumGolemattackProcedure.java"
+        ],
+        "return_type": "logic"
+      }
+    },
+    {
+      "name": "SodiumGolemwaterattck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golemwaterattck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumGolemwaterattckProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SodiumGolemWALK",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golem_walk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumGolemWALKProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SodiumGolemATTACKEXPOLOE",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golem_attackexpoloe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumGolemATTACKEXPOLOEProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SodiumGolemDEATHexpole",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sodium_golem_deat_hexpole",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SodiumGolemDEATHexpoleProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:WickerWhip",
+      "~CUSTOM:SodiumSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:WickerArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:WickerArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:WickerArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:WickerArmor.boots"
+    ],
+    "ITEMS:test:wicker_armor_repair_items": [
+      "~Blocks.BAMBOO"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Saltwater"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Modtab": [
+      "SodiumSword",
+      "RockSalt",
+      "SodiumIngot",
+      "DiamondStick",
+      "WickerArmor",
+      "SodiumGolem",
+      "SodiumBlock",
+      "Chips",
+      "Salt",
+      "Saltwater",
+      "WickerWhip",
+      "VineStick"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.test.diamond_stick": "鑽石棒",
+      "advancements.modadv.title": "Mod",
+      "advancements.modadv.descr": "基泥鈦鎂",
+      "item_group.test.modtab": "Modtab",
+      "item.test.sodium_sword": "Magnesium sword",
+      "item.test.rock_salt": "岩鹽",
+      "item.test.sodium_ingot": "鈉錠",
+      "item.test.wicker_armor_leggings": "藤製護腿",
+      "item.test.wicker_armor_boots": "藤製靴子",
+      "item.test.wicker_armor_helmet": "藤製頭盔",
+      "item.test.wicker_armor_chestplate": "藤製胸甲",
+      "item.test.sodium_golem_spawn_egg": "Sodium Golem Spawn Egg",
+      "entity.test.sodium_golem": "Sodium Golem",
+      "item.test.sodium_block": "鈉磚",
+      "item.test.sodium_chloride": "Sodium Chloride",
+      "item.test.chips": "加鹽薯條",
+      "item.test.salt": "鹽",
+      "block.test.salt_water": "鹽水桶",
+      "fluid.test.salt_water": "鹽水桶",
+      "item.test.salt_water_bucket": "鹽水桶",
+      "fluid_type.test.salt_water": "鹽水桶",
+      "item.test.wicker_whip": "Wicker Whip",
+      "item.test.vine_stick": "Vine Stick"
+    },
+    "zh_tw": {
+      "item.test.diamond_stick": "鑽石棒",
+      "advancements.modadv.title": "Mod",
+      "advancements.modadv.descr": "鈉邊不行",
+      "item_group.test.modtab": "模組",
+      "item.test.sodium_sword": "鈉劍",
+      "item.test.rock_salt": "岩鹽",
+      "item.test.sodium_ingot": "鈉錠",
+      "item.test.wicker_armor_leggings": "藤製護腿",
+      "item.test.wicker_armor_boots": "藤製靴子",
+      "item.test.wicker_armor_helmet": "藤製頭盔",
+      "item.test.wicker_armor_chestplate": "藤製胸甲",
+      "item.test.sodium_golem_spawn_egg": "鈉巨人生怪蛋",
+      "entity.test.sodium_golem": "鈉巨人",
+      "item.test.sodium_block": "鈉磚",
+      "item.test.sodium_chloride": "粗鹽",
+      "item.test.chips": "薯條",
+      "item.test.salt": "鹽",
+      "block.test.salt_water": "鹽水桶",
+      "fluid.test.salt_water": "鹽水桶",
+      "item.test.salt_water_bucket": "海水桶",
+      "fluid_type.test.salt_water": "鹽水桶",
+      "item.test.wicker_whip": "藤鞭",
+      "item.test.vine_stick": "藤條"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/test/init/TestModModels.java",
+      "src/main/java/net/mcreator/test/init/TestModTabs.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/test/TestMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/test/init/TestModFluids.java",
+      "src/main/java/net/mcreator/test/init/TestModFluidTypes.java",
+      "src/main/java/net/mcreator/test/init/TestModBlocks.java",
+      "src/main/java/net/mcreator/test/init/TestModItems.java",
+      "src/main/java/net/mcreator/test/init/TestModEntities.java",
+      "src/main/java/net/mcreator/test/init/TestModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "function",
+        "children": []
+      },
+      {
+        "name": "Tab_Adv",
+        "children": []
+      },
+      {
+        "name": "Recipe",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "iron_sword",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test"
+  },
+  "mcreatorVersion": 202500333716
+}

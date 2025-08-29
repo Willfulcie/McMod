@@ -1,0 +1,35 @@
+[pregen]
+	#Start pregen automatically on world load.
+	enabledDefault = false
+	#How many chunks to process per server tick while pregen runs.
+	# Default: 32
+	# Range: 1 ~ 4096
+	batchPerTick = 8
+	#Spawn-centered HALF width in chunks (used when PREGEN_USE_FIXED_BOUNDS = false).
+	# Default: 128
+	# Range: 1 ~ 4096
+	spawnRectHalfSizeX = 128
+	#Spawn-centered HALF height in chunks (used when PREGEN_USE_FIXED_BOUNDS = false).
+	# Default: 128
+	# Range: 1 ~ 4096
+	spawnRectHalfSizeZ = 128
+	#If true, pregen uses the fixed rectangle below instead of spawn-centered size.
+	useFixedBounds = true
+
+	[pregen.fixed]
+		#Fixed rectangle: MIN chunk X (inclusive).
+		# Default: -1024
+		# Range: -100000 ~ 100000
+		minCX = -1024
+		#Fixed rectangle: MAX chunk X (inclusive).
+		# Default: 1024
+		# Range: -100000 ~ 100000
+		maxCX = 1024
+		#Fixed rectangle: MIN chunk Z (inclusive).
+		# Default: -1024
+		# Range: -100000 ~ 100000
+		minCZ = -1024
+		#Fixed rectangle: MAX chunk Z (inclusive).
+		# Default: 1024
+		# Range: -100000 ~ 100000
+		maxCZ = 1024

@@ -2,10 +2,11 @@
   "workspacePanelIconSize": "DETAILS",
   "workspacePanelSortType": "CREATED",
   "workspacePanelSortAscending": true,
-  "projectBrowserSplitPos": 192,
+  "projectBrowserSplitPos": 295,
   "projectBrowserState": {
     "expandedPaths": [
       "[, test]",
+      "[, test, Source (Gradle)]",
       "[, test, Models]"
     ]
   }

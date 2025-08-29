@@ -1,0 +1,7 @@
+[pregen]
+	#Whether pregen should start automatically when a world loads (default false).
+	enabledDefault = false
+	#How many chunks to attempt per tick when pregen is running.
+	# Default: 8
+	# Range: 1 ~ 1024
+	batchPerTick = 8
